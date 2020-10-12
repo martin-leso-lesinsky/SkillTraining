@@ -17,5 +17,16 @@ namespace SkillTraining
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
         }
+
+        public static void CreateRectangle()
+        {
+            Console.WriteLine("Hello World!");
+
+            Rectangle r = new Rectangle();
+            r.length = 4.5;
+            r.width = 3.5;
+            r.Display();
+            Console.ReadLine();
+        }
     }
 }
