@@ -2,6 +2,7 @@ using System;
 
 namespace SkillTraining {
    class MyArray {
+      
       public void CreateArrays() {
          int [] n = new int[10]; /* n is an array of 10 integers */
          int index = 0,j;
