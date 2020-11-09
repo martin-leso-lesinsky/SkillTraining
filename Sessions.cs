@@ -17,19 +17,25 @@ namespace SkillTraining
         public void ExecuteList()
         {
             MyList myList = new MyList();
-            MyList.CreateList();
+            myList.CreateList();
         }
 
         public void ExecuteAddingElementsToList()
         {
             MyList2 myList2 = new MyList2();
-            MyList2.AddingElementsToList();
+            myList2.AddingElementsToList();
         }
 
          public void ExecuteRemoveFromList()
         {
             MyList3 myList3 = new MyList3();
-            MyList3.RemoveFromList();
+            myList3.RemoveFromList();
+        }
+
+         public void ExecuteTryCatch()
+        {
+            TryCatchA tryCatcha = new TryCatchA();
+            tryCatcha.TrayCatchA();
         }
     }
 }

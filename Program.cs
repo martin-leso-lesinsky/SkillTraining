@@ -17,6 +17,7 @@ namespace SkillTraining
                 Console.WriteLine("   Session 3 - press key [3] ");
                 Console.WriteLine("   Session 4 - press key [4] ");
                 Console.WriteLine("   Session 5 - press key [5] ");
+                Console.WriteLine("   Session 6 - press key [6] ");
                 Console.WriteLine("   Quit      - press key [Q] ");
 
                 userAction = Console.ReadKey();
@@ -33,6 +34,8 @@ namespace SkillTraining
                     sessions.ExecuteAddingElementsToList();
                 if(userAction.Key == ConsoleKey.D5)
                     sessions.ExecuteRemoveFromList();
+                if(userAction.Key == ConsoleKey.D6)
+                    sessions.ExecuteTryCatch();
             }
             while(userAction.Key != ConsoleKey.Q);
             

@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SkillTraining {
-    public class MyList
+    public class MyList12
     {
-        public List<int> Items{get; private set;}
+        public IEnumerable<int> Items{get; private set;}
 
         public void CreateList()
         {   
@@ -12,12 +13,7 @@ namespace SkillTraining {
             array[0] = 1;
             array[1] = 2;
             array[2] = 3;
-            Items = new List<int>(array); //array.ToList(); 
-            
-            // druha alternativa
-            Items = new List<int>();
-            Items.AddRange(array);   
-                        
+            Items = array;                       
             Display();
 
             var list = new List<int>();
@@ -31,12 +27,12 @@ namespace SkillTraining {
         //static
         void Display()
         {
-            Console.WriteLine("Count: {0}", Items.Count);
+            Console.WriteLine("Count: {0}", Items.ToList().Count);
             foreach (int value in Items)
             {
                 Console.WriteLine(value);
             }
-            Items.Clear();
+            Items.ToList().Clear();
         }
     }
 }
