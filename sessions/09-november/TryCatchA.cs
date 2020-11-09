@@ -36,8 +36,7 @@ namespace SkillTraining
             catch (InvalidCastException ex)
             {
                 Console.WriteLine("Invalid casting. {0}", ex.Message);
-            }
-            finally 
+            } 
         }
     }
 }
