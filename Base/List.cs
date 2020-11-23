@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SkillTraining {
+namespace SkillTraining.Base {
     public class MyList
     {
         public List<int> Items{get; private set;}

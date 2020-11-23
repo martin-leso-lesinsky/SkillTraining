@@ -1,8 +1,8 @@
 using System;
 
-namespace SkillTraining
+namespace SkillTraining.Base.October1
 {
-    class Rectangle 
+    class Rectangle
     {
         //member variables
         public double length;

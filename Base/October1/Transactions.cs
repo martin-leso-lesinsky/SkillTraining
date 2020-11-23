@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System;
 
-namespace SkillTraining 
+namespace SkillTraining.Base.October1
 {
    public class Transaction : ITransaction {
       private string tCode;

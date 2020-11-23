@@ -1,8 +1,7 @@
 using System;
 
-namespace SkillTraining
+namespace SkillTraining.Base.November4
 {
-
     class TryCatchA
     {
         static double DivideNumber(double num1, double num2)
@@ -15,13 +14,14 @@ namespace SkillTraining
         {
             try
             {
-                string mystring = default;
+                string mystring = "";
                 mystring.Insert(0, "hello");
 
+                 
                 int i = 20; int j = 0;
                 double result = DivideNumber(i, j);
 
-                object obj = default;
+                object obj = 1;
                 int i2 = (int)obj; // Suspect of casting error  
 
             }

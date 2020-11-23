@@ -37,4 +37,9 @@ List.cs - Display method
 ### 9 November
 
 Try-Catch
+Default - klucove slovo
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/default
+
+### 13 November
+
 

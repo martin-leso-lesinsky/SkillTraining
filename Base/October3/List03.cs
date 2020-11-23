@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 
 
-namespace SkillTraining {
+namespace SkillTraining.Base.October3
+{
 
     class MyList3
 

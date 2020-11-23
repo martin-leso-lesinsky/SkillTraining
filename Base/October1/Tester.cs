@@ -1,6 +1,6 @@
 using System;
 
-namespace SkillTraining
+namespace SkillTraining.Base.October1
 {
     class Tester {
      

@@ -1,8 +1,7 @@
 using System;
 
-namespace SkillTraining
+namespace SkillTraining.Base.November4
 {
-
     class TryCatch
     {
         public void TryCatch1()

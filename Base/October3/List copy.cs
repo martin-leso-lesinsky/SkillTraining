@@ -2,18 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SkillTraining {
+namespace SkillTraining.Base.October3
+{
     public class MyList12
     {
-        public IEnumerable<int> Items{get; private set;}
+        public IEnumerable<int> Items { get; private set; }
 
         public void CreateList()
-        {   
+        {
             var array = new int[3];
             array[0] = 1;
             array[1] = 2;
             array[2] = 3;
-            Items = array;                       
+            Items = array;
             Display();
 
             var list = new List<int>();

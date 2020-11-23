@@ -1,6 +1,6 @@
 using System;
 
-namespace SkillTraining {
+namespace SkillTraining.Base.October2  {
    class MyArray {
       
       public void CreateArrays() {
